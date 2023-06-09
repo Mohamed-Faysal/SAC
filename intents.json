@@ -3,37 +3,16 @@
   "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
   "responses": ["Hello!","Hey!","What can I do for you?"]
   },
-  {
-    "tag": "salutation",
-    "patterns": ["salut","bonjour", "cc","ça va","comment allez vous"],
-    "responses": ["Bonjour!","comment puis-je vous aidez?","que puis-je faire pour vous?"]
-  },
 
   {"tag": "name",
   "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
   "responses": ["You can call me SAC","I'm SAC","I'm SAC your virtual assistant"]
-  },
-  {
-    "tag": "nom",
-    "patterns": ["quel est votre nom","comment puis-je vous appelez","qui êtes vous","comment peut on vous appelez"],
-    "responses": [" je suis SAC et je suis un assistant virtuel","appelez moi SAC votre assistant virtuel ","mon nom c'est SAC et je suis un assistant virtuel "]
   },
 
   {"tag": "courses",
   "patterns": ["what courses are available", "how many courses are there in this college"],
   "responses": ["Informatics College Pokhara has been in direct partnership with London Metropolitan University, \nUK to provide enviable higher education in IT and Business to students in Pokhara.\nFor Bachelors Degree in Information Technology we have been offering the specialization in BSc (Hons) Computing.\nFor Bachelors in Business Administration we have been offering the followings:\n\n1. BBA (Marketing) with International Business \n\n2. BBA (Accounting & Finance) with International Business\n\n3. BBA (International Business)"]
   },
-  {
-    "tag": "hours",
-    "patterns": ["when are you open?", "what are your hours?", "hours of operation"],
-    "responses": ["24/7"]
-  },
-  {
-    "tag": "heure",
-    "patterns": ["quand êtes-vous ouverts ?", "quels sont vos heures d'ouverture ?", "heures d'opération "],
-    "responses": ["24/7"]
-  },
-
 
    {"tag": "courseDuration",
   "patterns": ["how long will be BIT or BBA course", "how long will it take to complete BIT or BBA course"],
@@ -108,16 +87,5 @@
   {"tag": "thanks",
     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
     "responses": ["Happy to help!", "Any time!", "My pleasure"]
-  },
-  {
-    "tag": "department",
-    "patterns": ["what is my department?", "what is your department?", "can i have the list of department?" , "what are the different department"],
-    "responses": ["the list of department are AI, CS, IT, IS and DS", "your department is AI" , "your department is CS", "your department is IT", "your department is IS" , "your department is DS"]
-  },
-
-  {
-    "tag": "departement",
-    "patterns": ["quel est mon departement?", "en quel departement suis-je?", "puis-je savoir quel est mon departement?", "quel sont les differents departement"],
-    "responses": ["la list des departements est  AI, CS, IT, IS and DS", "votre departement est AI" , "votre departement est CS", "votre departement est IT", "votre departement est IS" , "votre departement est DS"]
   }
-    ]}
+]}
