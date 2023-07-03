@@ -1,0 +1,34 @@
+import random
+import json
+import pickle
+import numpy as np
+import nltk
+from nltk.stem import WordNetLemmatizer
+
+import tensorflow as tk
+# from tensorflow.keras.models import Suquential
+# from tensorflow.keras.layers import Dens, Activision, Dropout
+# from tensorflow.keras.optimizer import SGD
+
+md=tk.keras.models
+lr=tk.keras.layers
+sgd=tk.keras.optimizers
+
+
+lemmatizer= WordNetLemmatizer()
+words=[]
+classes=[]
+documents=[]
+ignore_letter=['?','!','.',',']
+for intent in intents('intents'):
+    for pattern in intents('patterns'):
+        word_list=nltk.word_tokenize(pattern)
+        words.append(word_list)
+        documents.extend(word_list,intent("tags"))
+        if intent['tags'] not in classes:
+            classes.append(intent['tags'])
+
+
+
+words=[lemmatizer.lemmatize(word) for word in words if word not in ignore_letter]
+words=sorted(set(words))
